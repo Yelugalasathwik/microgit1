@@ -1,0 +1,31 @@
+spring.application.name=currency-exachange-service
+
+server.port= 8002
+
+# H2 Database Configuration
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=raviteja
+spring.datasource.password=welcome
+
+spring.cloud.discovery.client.simple.sevice-url.defaultZone=http://localhost:8761
+
+#H2 Dialect class
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
+
+#H2 console enable
+spring.h2.console.path=/h2-console
+
+#H2 show sql queires & format the queries
+
+
+# Show SQL Queries
+spring.jpa.show-sql=true
+
+# Format SQL Queries
+spring.jpa.properties.hibernate.format_sql=true 
+
+spring.jpa.hibernate.ddl-auto=none
+
+spring.sql.init.mode=always

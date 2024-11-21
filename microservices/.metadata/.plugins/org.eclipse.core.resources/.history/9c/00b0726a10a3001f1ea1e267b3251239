@@ -1,0 +1,11 @@
+INSERT INTO Currency_Exchange(id, conversion_multiple, from_currency, toCurrency)
+VALUES 
+    (02, 0.85 * 85, 'USD', 'INR'),       -- USD to INR
+    (03, 110.5 * 0.62, 'JPY', 'INR'),    -- JPY to INR
+    (04, 87.5, 'EUR', 'INR'),            -- EUR to INR
+    (05, 61.0, 'GBP', 'INR'),            -- GBP to INR
+    (06, 54.7, 'AUD', 'INR'),            -- AUD to INR
+    (07, 47.5, 'CAD', 'INR'),            -- CAD to INR
+    (08, 11.3, 'CNY', 'INR'),            -- CNY to INR
+    (09, 18.5, 'SAR', 'INR'),            -- SAR to INR
+    (10, 224.7, 'RUB', 'INR');           -- RUB to INR

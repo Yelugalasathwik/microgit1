@@ -1,0 +1,11 @@
+INSERT INTO Currency_Exchange(id, conversion_multiple, from_currency, toCurrency)
+VALUES 
+    (02, 0.85, 'USD', 'EUR'),
+    (03, 110.5, 'USD', 'JPY'),
+    (04, 74.0, 'EUR', 'INR'),
+    (05, 0.0072, 'INR', 'USD'),
+    (06, 1.61, 'AUD', 'SGD'),
+    (07, 0.62, 'SGD', 'USD'),
+    (08, 8.9, 'CNY', 'INR'),
+    (09, 0.0067, 'INR', 'GBP'),
+    (10, 4.18, 'MYR', 'USD');

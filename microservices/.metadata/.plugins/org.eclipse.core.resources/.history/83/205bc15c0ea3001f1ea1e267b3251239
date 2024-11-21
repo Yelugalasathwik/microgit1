@@ -1,0 +1,8 @@
+INSERT INTO Currency_Exchange(id, conversion_multiple, from_currency, to_currency)
+VALUES (1, 85, 'USD', 'INR');
+
+INSERT INTO Currency_Exchange(id, conversion_multiple, from_currency, to_currency)
+VALUES (2, 65, 'USD', 'INR');
+
+INSERT INTO Currency_Exchange(id, conversion_multiple, from_currency, to_currency)
+VALUES (3, 55, 'USD', 'INR');

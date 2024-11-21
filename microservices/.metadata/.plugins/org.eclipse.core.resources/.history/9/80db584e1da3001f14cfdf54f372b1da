@@ -1,0 +1,3 @@
+
+INSERT INTO Currency_Exchange(id,conversion_multiple,from_currency,toCurrency)
+VALUES (01,85,'USD','INR');
